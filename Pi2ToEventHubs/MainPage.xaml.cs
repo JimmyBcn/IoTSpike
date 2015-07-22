@@ -28,8 +28,8 @@ namespace Pi2ToEventHubs
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        private string connectionString = "Endpoint=sb://iotspikeeventhub-ns.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=zzv+ObDHw5xGsRJ5mxZRjUGDRE3A9MhoyJgAVuwAqfo=";
-        private string eventHubEntity = "ehdevices";
+        private string connectionString = "[YOUR CONNECTION STRING HERE]";
+        private string eventHubEntity = "[YOUR EVENTHUB NAME HERE]";
 
         private IIoTClient iotClient;
 
